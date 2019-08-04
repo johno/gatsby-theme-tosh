@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "gatsby-starter-tosh",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -11,7 +11,7 @@
   "dependencies": {
     "gatsby": "^2.13.18",
     "gatsby-theme-blog": "^1.0.2",
-    "gatsby-theme-tosh": "^0.0.0",
+    "gatsby-theme-tosh": "^0.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
