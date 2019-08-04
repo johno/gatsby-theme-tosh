@@ -3,10 +3,10 @@
   "alias": ["tosh-theme.johno.com"],
   "builds": [
     {
-      "src": "examples/starters/package.json",
+      "src": "examples/gatsby-starter-tosh/package.json",
       "use": "@now/static-build",
       "config": {
-        "distDir": "examples/starters/public"
+        "distDir": "examples/gatsby-starter-tosh/public"
       }
     }
   ]
