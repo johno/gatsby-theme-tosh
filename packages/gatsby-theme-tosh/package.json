@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-theme-tosh",
+  "version": "0.0.0",
+  "author": "John Otander",
+  "license": "MIT",
+  "repository": "johno/gatsby-theme-tosh",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ],
+  "dependencies": {
+    "gatsby-plugin-theme-ui": "0.2.26"
+  },
+  "devDependencies": {
+    "gatsby": "2.13.18",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.18",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

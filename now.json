@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "alias": ["docs-theme.johno.com"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ]
+}

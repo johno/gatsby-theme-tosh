@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "gatsby-theme-tosh",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "yarn workspace gatsby-starter-tosh start",
+    "publish": "lerna publish",
+    "publish:ci": "lerna publish -y --canary --preid ci --dist-tag=ci --force-publish=*",
+    "test": "yarn workspace gatsby-starter-tosh build"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "dependencies": {
+    "husky": "^3.0.2",
+    "lerna": "3.15.0",
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,mdx,json}": [
+      "prettier --write --no-semi --single-quote",
+      "git add"
+    ]
+  }
+}
