@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "alias": ["docs-theme.johno.com"],
+  "alias": ["tosh-theme.johno.com"],
   "builds": [
     {
-      "src": "package.json",
+      "src": "examples/starters/package.json",
       "use": "@now/static-build",
       "config": {
-        "distDir": "public"
+        "distDir": "examples/starters/public"
       }
     }
   ]
