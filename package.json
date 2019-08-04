@@ -6,7 +6,8 @@
     "start": "yarn workspace gatsby-starter-tosh start",
     "publish": "lerna publish",
     "publish:ci": "lerna publish -y --canary --preid ci --dist-tag=ci --force-publish=*",
-    "test": "yarn workspace gatsby-starter-tosh build"
+    "test": "yarn workspace gatsby-starter-tosh build",
+    "now-build": "yarn workspace gatsby-starter-tosh build && mv examples/gatsby-starter-tosh/public dist"
   },
   "workspaces": [
     "packages/*",
