@@ -10,7 +10,6 @@
     "gatsby-plugin"
   ],
   "dependencies": {
-    "gatsby-plugin-theme-ui": "0.2.26",
     "gatsby-theme-blog": "^1.0.2"
   },
   "devDependencies": {

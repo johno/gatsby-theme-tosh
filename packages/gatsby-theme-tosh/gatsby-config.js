@@ -1,7 +1,10 @@
-module.exports = _options => {
+module.exports = options => {
   return {
     plugins: [
-      'gatsby-plugin-theme-ui'
+      {
+        resolve: 'gatsby-theme-blog',
+        options
+      }
     ]
   }
 }
