@@ -23,7 +23,7 @@ yarn add gatsby-theme-tosh
 ```js
 // gatsby-config.js
 module.exports = {
-  plugins: ['gatsby-theme-blog', 'gatsby-theme-tosh']
+  plugins: ['gatsby-theme-tosh']
 }
 ```
 

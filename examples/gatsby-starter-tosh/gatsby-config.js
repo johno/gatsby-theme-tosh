@@ -18,5 +18,5 @@ module.exports = {
       }
     ]
   },
-  plugins: ['gatsby-theme-blog', 'gatsby-theme-tosh']
+  plugins: ['gatsby-theme-tosh']
 }
